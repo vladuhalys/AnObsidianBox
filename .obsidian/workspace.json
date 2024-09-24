@@ -11,8 +11,12 @@
             "id": "2eda862f59fc6d9c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Dart/Asynchronous/Future.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programming/Dart/Asynchronous/Future.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programming/Dart/Asynchronous/Future.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programming/Dart/Asynchronous/Future.md"
+              }
             }
           },
           {
@@ -147,8 +155,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e8ba4a70dec66d53",
+  "active": "7b003ff822db459a",
   "lastOpenFiles": [
+    "Programming/Dart/Asynchronous/Asynchronous programming.md",
+    "Programming/Dart/Asynchronous/Future.md",
+    "Programming/Dart/Asynchronous/async & await.md",
+    "async/await.md",
+    "async",
+    "Programming/Dart/Asynchronous/Stream.md",
+    "Programming/Dart/Asynchronous/Single subscription.md",
+    "Programming/Dart/Asynchronous/Broadcast.md",
+    "Programming/Dart/Asynchronous",
     "Programming/Dart",
     "Programming/Flutter",
     "Programming"
