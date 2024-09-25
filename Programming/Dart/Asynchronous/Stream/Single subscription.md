@@ -70,6 +70,145 @@ StreamSubscription<T> listen(
 - **onDone** — викликається, коли потік завершується (опціонально).
 - **cancelOnError** — якщо `true`, підписка буде скасована у разі виникнення помилки.
 
+### 1. **onData** — Обробник для отримання даних з потоку:
+
+Кожного разу, коли в потік надходить нова подія, обробник `onData` буде викликано.
+
+```dart
+import 'dart:async';
+
+void main() {
+  StreamController<int> controller = StreamController<int>();
+
+  // Підписка на потік з обробкою даних через onData
+  controller.stream.listen((data) {
+    print('Отримано дані: $data');
+  });
+
+  // Додаємо події
+  controller.sink.add(1);
+  controller.sink.add(2);
+  controller.sink.add(3);
+
+  // Закриваємо потік
+  controller.close();
+}
+```
+
+**Вивід:**
+
+```dart
+Отримано дані: 1
+Отримано дані: 2
+Отримано дані: 3
+```
+
+### 2. **onError** — Обробник для обробки помилок:
+
+Обробник `onError` викликається, якщо в потік додається помилка через `sink.addError()`.
+
+```dart
+import 'dart:async';
+
+void main() {
+  StreamController<int> controller = StreamController<int>();
+
+  // Підписка на потік з обробкою помилок через onError
+  controller.stream.listen((data) {
+    print('Отримано дані: $data');
+  }, onError: (error) {
+    print('Помилка: $error');
+  });
+
+  // Додаємо події та помилку
+  controller.sink.add(1);
+  controller.sink.addError('Сталася помилка!');
+  controller.sink.add(2);
+
+  // Закриваємо потік
+  controller.close();
+}
+```
+
+**Вивід:**
+
+```dart
+Отримано дані: 1
+Помилка: Сталася помилка!
+Отримано дані: 2
+```
+
+### 3. **onDone** — Викликається, коли потік завершується:
+
+Обробник `onDone` викликається після того, як потік було закрито.
+
+```dart
+import 'dart:async';
+
+void main() {
+  StreamController<int> controller = StreamController<int>();
+
+  // Підписка на потік з обробкою завершення через onDone
+  controller.stream.listen((data) {
+    print('Отримано дані: $data');
+  }, onDone: () {
+    print('Потік завершено');
+  });
+
+  // Додаємо події
+  controller.sink.add(1);
+  controller.sink.add(2);
+
+  // Закриваємо потік
+  controller.close();
+}
+```
+
+**Вивід:**
+
+```dart
+Отримано дані: 1
+Отримано дані: 2
+Потік завершено
+```
+
+### 4. **cancelOnError** — Якщо `true`, підписка буде скасована у разі виникнення помилки:
+
+Якщо встановити `cancelOnError` у значення `true`, то після виникнення помилки потік автоматично припинить роботу.
+
+dart
+
+```dart
+import 'dart:async';
+
+void main() {
+  StreamController<int> controller = StreamController<int>();
+
+  // Підписка з автоматичним скасуванням у разі помилки
+  controller.stream.listen((data) {
+    print('Отримано дані: $data');
+  }, onError: (error) {
+    print('Помилка: $error');
+  }, cancelOnError: true);
+
+  // Додаємо події та помилку
+  controller.sink.add(1);
+  controller.sink.addError('Серйозна помилка!');
+  controller.sink.add(2);
+
+  // Закриваємо потік
+  controller.close();
+}
+```
+
+**Вивід:**
+
+```dart
+Отримано дані: 1
+Помилка: Серйозна помилка!
+```
+
+**Примітка**: Після помилки підписка автоматично скасовується, і подія з числом 2 більше не обробляється.
 #### Приклад із обробкою помилок:
 
 ```dart
