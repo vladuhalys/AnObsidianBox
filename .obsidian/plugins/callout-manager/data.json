@@ -1,0 +1,40 @@
+{
+  "callouts": {
+    "custom": [
+      "advantages",
+      "limitations",
+      "conclusion"
+    ],
+    "settings": {
+      "advantages": [
+        {
+          "changes": {
+            "icon": "lucide-plus",
+            "color": "68, 207, 110"
+          }
+        }
+      ],
+      "limitations": [
+        {
+          "changes": {
+            "icon": "lucide-minus",
+            "color": "251, 70, 76"
+          }
+        }
+      ],
+      "conclusion": [
+        {
+          "changes": {
+            "icon": "lucide-book-marked",
+            "color": "168, 130, 255"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

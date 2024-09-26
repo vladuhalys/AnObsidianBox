@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Dart/Asynchronous/Future/Future.md",
+                "file": "Programming/Dart/Asynchronous/Stream/StreamController.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Dart/Asynchronous/Future/Future.md",
+                "file": "Programming/Dart/Asynchronous/Stream/StreamController.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Dart/Asynchronous/Future/Future.md",
+                "file": "Programming/Dart/Asynchronous/Stream/StreamController.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Dart/Asynchronous/Future/Future.md"
+                "file": "Programming/Dart/Asynchronous/Stream/StreamController.md"
               }
             }
           },
@@ -154,24 +154,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Відкрити провідник файлів": false,
-      "graph:Граф": false,
-      "canvas:Створити нове полотно": false,
-      "daily-notes:Сьогоднішня нотатка": false,
-      "templates:Вставити шаблон": false,
-      "command-palette:Відкрити меню команд": false,
-      "obsidian-git:Open Git source control": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "e8ba4a70dec66d53",
+  "active": "8a4de3df1782f593",
   "lastOpenFiles": [
-    "Programming/Dart/Asynchronous/Stream/Single subscription.md",
     "Programming/Dart/Asynchronous/Stream/Stream.md",
-    "Programming/Dart/Asynchronous/Stream/StreamController.md",
+    "Programming/Dart/Asynchronous/Stream/Single subscription.md",
     "Programming/Dart/Asynchronous/Stream/Broadcast.md",
+    "Programming/Dart/Asynchronous/Stream/StreamController.md",
+    "Programming/Dart/Asynchronous/Future/Future.md",
     "Programming/Dart/Asynchronous/Stream",
     "Programming/Dart/Asynchronous/Future/catchError().md",
-    "Programming/Dart/Asynchronous/Future/Future.md",
     "Programming/Dart/Asynchronous/Asynchronous programming.md",
     "Programming/Dart/Asynchronous/async & await.md",
     "Programming/Dart/Asynchronous/Future/Future.wait().md",
