@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Dart/Asynchronous/Stream/StreamController.md",
+                "file": "Programming/Dart/Asynchronous/Future/Future.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "StreamController"
+              "title": "Future"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Dart/Asynchronous/Stream/StreamController.md",
+                "file": "Programming/Dart/Asynchronous/Future/Future.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for StreamController"
+              "title": "Backlinks for Future"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Dart/Asynchronous/Stream/StreamController.md",
+                "file": "Programming/Dart/Asynchronous/Future/Future.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from StreamController"
+              "title": "Outgoing links from Future"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Dart/Asynchronous/Stream/StreamController.md",
+                "file": "Programming/Dart/Asynchronous/Future/Future.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of StreamController"
+              "title": "Outline of Future"
             }
           },
           {
@@ -180,20 +180,20 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "e8ba4a70dec66d53",
+  "active": "8a4de3df1782f593",
   "lastOpenFiles": [
-    "Programming/Dart/Asynchronous/Stream/StreamController.md",
+    "Programming/Dart/Asynchronous/Future/catchError().md",
     "Programming/Dart/Asynchronous/Stream/Stream.md",
+    "Programming/Dart/Asynchronous/Future/whenComplete().md",
+    "Programming/Dart/Asynchronous/Future/then().md",
+    "Programming/Dart/Asynchronous/Future/Future.wait().md",
+    "Programming/Dart/Asynchronous/Future/Future.md",
     "Programming/Dart/Asynchronous/Stream/Single subscription.md",
     "Programming/Dart/Asynchronous/Stream/Broadcast.md",
-    "Programming/Dart/Asynchronous/Future/Future.md",
+    "Programming/Dart/Asynchronous/Stream/StreamController.md",
     "Programming/Dart/Asynchronous/Stream",
-    "Programming/Dart/Asynchronous/Future/catchError().md",
     "Programming/Dart/Asynchronous/Asynchronous programming.md",
     "Programming/Dart/Asynchronous/async & await.md",
-    "Programming/Dart/Asynchronous/Future/Future.wait().md",
-    "Programming/Dart/Asynchronous/Future/then().md",
-    "Programming/Dart/Asynchronous/Future/whenComplete().md",
     "Programming/Dart/try-catch.md",
     "Programming/Dart/Asynchronous/Future",
     "async/await.md",
