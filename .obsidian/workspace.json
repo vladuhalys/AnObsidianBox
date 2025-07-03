@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Dart/try-catch.md",
+                "file": "Obsidian Flow/🔮 Obsidian cheat sheet and shortcut keys.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "try-catch"
+              "title": "🔮 Obsidian cheat sheet and shortcut keys"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Dart/try-catch.md",
+                "file": "Obsidian Flow/🔮 Obsidian cheat sheet and shortcut keys.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of try-catch"
+              "title": "Outline of 🔮 Obsidian cheat sheet and shortcut keys"
             }
           },
           {
@@ -180,19 +180,23 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "7b003ff822db459a",
+  "active": "d829c0d203ab9bf7",
   "lastOpenFiles": [
-    "Programming/Dart/Asynchronous/Stream/Broadcast.md",
+    "Obsidian Flow/Untitled.md",
+    "Programming/Dart/Asynchronous/Asynchronous programming.md",
+    "Obsidian Flow/🔮 Obsidian cheat sheet and shortcut keys.md",
     "Programming/Dart/Asynchronous/Stream/Single subscription.md",
+    "Programming/Dart/Asynchronous/Future/catchError().md",
+    "Untitled.canvas",
+    "Obsidian Flow",
+    "Programming/Dart/try-catch.md",
+    "Programming/Dart/Asynchronous/Stream/Broadcast.md",
     "Programming/Dart/Asynchronous/Stream/Stream.md",
     "Programming/Dart/Asynchronous/async & await.md",
-    "Programming/Dart/Asynchronous/Asynchronous programming.md",
-    "Programming/Dart/try-catch.md",
     "Programming/Dart/Asynchronous/Stream/StreamController.md",
     "Programming/Dart/Asynchronous/Future/whenComplete().md",
     "Programming/Dart/Asynchronous/Future/Future.wait().md",
     "Programming/Dart/Asynchronous/Future/Future.md",
-    "Programming/Dart/Asynchronous/Future/catchError().md",
     "Programming/Dart/Asynchronous/Future/then().md",
     "Programming/Dart/Asynchronous/Stream",
     "Programming/Dart/Asynchronous/Future",
