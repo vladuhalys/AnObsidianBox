@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d56c6601fbdc8f45",
+        "id": "69dd4ce8af554cfe",
         "type": "tabs",
         "children": [
           {
-            "id": "d829c0d203ab9bf7",
+            "id": "4b939e1a48ed9a89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Flow/🔮 Obsidian cheat sheet and shortcut keys.md",
-                "mode": "preview",
-                "source": true
+                "file": "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/30. Як налаштувати ізольовану роботу з потоками (Isolates).md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "🔮 Obsidian cheat sheet and shortcut keys"
+              "title": "30. Як налаштувати ізольовану роботу з потоками (Isolates)"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 532.5
   },
   "right": {
     "id": "f2fdf2c3edbd84fb",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Flow/🔮 Obsidian cheat sheet and shortcut keys.md",
+                "file": "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/30. Як налаштувати ізольовану роботу з потоками (Isolates).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 🔮 Obsidian cheat sheet and shortcut keys"
+              "title": "Outline of 30. Як налаштувати ізольовану роботу з потоками (Isolates)"
             }
           },
           {
@@ -180,31 +180,44 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "d829c0d203ab9bf7",
+  "active": "e8ba4a70dec66d53",
   "lastOpenFiles": [
-    "Obsidian Flow/Untitled.md",
-    "Programming/Dart/Asynchronous/Asynchronous programming.md",
-    "Obsidian Flow/🔮 Obsidian cheat sheet and shortcut keys.md",
-    "Programming/Dart/Asynchronous/Stream/Single subscription.md",
-    "Programming/Dart/Asynchronous/Future/catchError().md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/29. Які є методи оптимізації продуктивності в Flutter.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/30. Як налаштувати ізольовану роботу з потоками (Isolates).md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/28. Як працює ClipRect, ClipRRect і ClipPath.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/27. Як працює Theme в Flutter і як передається в контексті.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/26. Чим відрізняються MaterialApp і WidgetsApp.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/25. Як можна уникнути проблеми This widget has been unmounted.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/24. Як Flutter обробляє натискання кнопок.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/23. Що таке GestureDetector і як він працює під капотом.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/22. Який механізм обробки подій у Flutter.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/21. Як працює Flutter Hot Reload.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/20. Що таке Slivers і для чого вони потрібні.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/19. Як працюють Constraints у Flutter.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/18. Чим відрізняється Tween від AnimationController.md",
+    "Untitled.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/17. Що таке Hero Animation і як вона працює.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/16. Як працює механізм відкладеного побудування (lazy loading) у Flutter.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/1. Що таке Flutter і на яких мовах програмування він побудований.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/15. Що таке FutureBuilder і StreamBuilder.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/14. Чим відрізняються setState, ValueNotifier, ChangeNotifier.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/13. Яка роль RepaintBoundary.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/12. Як Flutter оптимізує відображення великої кількості елементів у списку.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/11. Що таке BuildOwner і яка його роль.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/10. Коли і для чого варто використовувати GlobalKey.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/9. Що таке Keys і які їх типи.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/8. Чим відрізняється Navigator.push від Navigator.pushReplacement.md",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень/7. Як працює InheritedWidget.md",
+    "Питання співбесіди Flutter/📌 [71–100] Питання про архітектуру та оптимізацію",
+    "Питання співбесіди Flutter/📌 [31–70] Поглиблений рівень",
+    "Питання співбесіди Flutter/📌 [1 - 30] Базовий рівень",
+    "Питання співбесіди Flutter",
     "Untitled.canvas",
     "Obsidian Flow",
-    "Programming/Dart/try-catch.md",
-    "Programming/Dart/Asynchronous/Stream/Broadcast.md",
-    "Programming/Dart/Asynchronous/Stream/Stream.md",
-    "Programming/Dart/Asynchronous/async & await.md",
-    "Programming/Dart/Asynchronous/Stream/StreamController.md",
-    "Programming/Dart/Asynchronous/Future/whenComplete().md",
-    "Programming/Dart/Asynchronous/Future/Future.wait().md",
-    "Programming/Dart/Asynchronous/Future/Future.md",
-    "Programming/Dart/Asynchronous/Future/then().md",
     "Programming/Dart/Asynchronous/Stream",
     "Programming/Dart/Asynchronous/Future",
-    "async/await.md",
     "async",
     "Programming/Dart/Asynchronous",
-    "Programming/Dart",
-    "Programming/Flutter",
-    "Programming"
+    "Programming/Dart"
   ]
 }
