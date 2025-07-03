@@ -1,5 +1,10 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "GitHub Theme",
   "accentColor": "",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "monospaceFontFamily": "Cascadia Code",
+  "textFontFamily": "Segoe UI",
+  "interfaceFontFamily": "Segoe UI",
+  "showViewHeader": true,
+  "showRibbon": true
 }
